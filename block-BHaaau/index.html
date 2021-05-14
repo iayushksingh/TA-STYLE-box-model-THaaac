@@ -1,0 +1,63 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>The Box Model, Box-sizing & Box-shadow</h1>
+        </header>
+        <main>
+            <section> 
+                <hr>
+                <h2>Exercise1</h2>
+                <div class="box1">
+                </div>
+                <div class="sec1">
+                <span class="box2"></span><p>Content</p><span class="box3"></span><p>Padding</p><span class="box4"></span><p>Border</p><span class="box5"></span><p>Margin</p>
+                </div>
+                <hr>
+            </section>
+            <section  >
+                <h2 >Exercise2</h2>
+                <h3 >no border on these boxes.</h3>
+                <div class="box6">
+                    <span class="box7"></span><!--
+                    --><span class="box7"></span><!--
+                    --><span class="box7"></span>
+                </div>
+                <hr>
+                <h3>1px border on these boxes.</h3>
+                <div class="box9">
+                    <span class="box8"></span>
+                    <span class="box8"></span>
+                    <span class="box8"></span>
+                </div>
+                <hr>
+                <h3>1px border on these boxes but they are in same line</h3>
+                <div class="box10">
+                    <span class="box8"></span>
+                    <span class="box8"></span><!--
+                    --><span class="box8"></span>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
